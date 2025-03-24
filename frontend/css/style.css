@@ -117,13 +117,14 @@ html{
     font-weight: var(--fw-500);
     max-width: max-content;
     padding: var(--padding, 12px, 28px);
+    border-radius: var(--radius-6);
 
 }
 .btn:is(:hover, :focus){
     background-color: var(--sky-blue);
 }
 .btn-secondary{
-    border-radius: 15px;
+    border-radius: 35px;
 }
 .btn-primary{
     border-radius: var(--radius-6);
@@ -270,7 +271,7 @@ html{
     padding-block-start: 10px ;
 }
 .hero-bg{
-    background-image: url(pic2.jpg);
+    background-image: url(../Images/pic2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -614,7 +615,7 @@ html{
 }
 
 .wrapper2{
-    background: url(pic5.webp) fixed;
+    background: url(../Images/pic5.webp) fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -58,3 +58,4 @@ lastClickedTabBtn = this;
 }
 
 addEventOnElement(tabBtns, "click", changeTab);
+

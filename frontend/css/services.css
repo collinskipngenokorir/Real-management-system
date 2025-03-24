@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #3f9cc1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .services-intro {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .service img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #3f9cc1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
